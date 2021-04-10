@@ -1,0 +1,44 @@
+.faqDiv{
+    background-color: rgb(56, 55, 55);
+    color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    width: 60%;
+    cursor: pointer;
+    transition: .3s ease-in;
+}
+.qus{
+    float: left;
+    padding: 15px;
+}
+.cross{
+    float: right;
+    font-size: 35px;
+    padding: 15px;
+}
+.answer{
+    font-size: 25px;
+    padding: 15px;
+    text-align: justify;
+}
+
+.show{
+    opacity: 1;
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.width100{
+    width: 100%;
+}
+
+.faqhr{
+    padding: 1px;
+    margin: 10px 0;
+    border: 0;
+    background: black;
+}

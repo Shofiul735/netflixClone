@@ -1,0 +1,119 @@
+*{
+    font-family: sans-serif;
+}
+.bgImage{
+    background: linear-gradient(to bottom right,rgba(0,0,0,.8),rgba(0,0,0,.7)),url("../../images/netflixBg.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    position: relative;
+    background-position: bottom;
+}
+.contentDiv{
+    color: #f3f3f3;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-40%);
+    width: 600px;
+    text-align: center;
+}
+.contentDiv h1{
+    font-size: 50px;
+}
+.contentDiv h2{
+    font-size: 25px;
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+
+.contentDiv form span{
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 18px;
+}
+.contentDiv form{
+    margin: 30px 0;
+}
+.emailForm{
+    position: relative;
+}
+.emailForm input{
+    display: inline-block;
+    width: 85%;
+    height: 55px;
+    padding: 15px;
+    position: absolute;
+    font-size: 18px;
+    left: -15px;
+    z-index: 0;
+    transition: .7s ease;
+}
+.emailForm input:focus{
+    border: none;
+    outline: none;
+}
+.emailForm input:focus:invalid{
+    border: none;
+    border-bottom: 2px solid rgb(255, 208, 0);
+}
+
+.emailForm input:focus + label{
+    top: 5px;
+    font-size: 12px;
+}
+.emailForm input:valid + label{
+    top: 5px;
+    font-size: 12px;
+}
+.emailForm label{
+    color: #6f6f6f;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    transition:1s all;
+}
+.emailForm button{
+    position: relative;
+    z-index: 2;
+    right: -270px;
+    padding: 16px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    background: red;
+}
+.emailForm p{
+    text-align: left;
+    padding-top: 5px;
+    color: #efbe0d;
+    opacity: 0;
+    transition: .6s ease;
+}
+.emailForm input:focus:invalid ~ p{
+    opacity: 1;
+}
+.hrForInitialPage{
+    width: 100%;
+    height: 10px;
+    background-color: #222;
+    border: none;
+}
+.messageBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.messageBox h3{
+    background: linear-gradient(to right,red,green,yellow);
+    background-clip: text;
+    color: transparent;
+}
+

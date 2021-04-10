@@ -1,0 +1,21 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title{
+    text-transform: capitalize;
+    color: beige;
+    text-align: left;
+}
+.makeRow{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+.makeRow::-webkit-scrollbar{
+    display: none;
+}
+.marginTopBottom15{
+    padding: 10px 0 ;
+}

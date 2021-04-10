@@ -1,0 +1,41 @@
+.loginNav{
+    padding: 10px 45px;
+    display: flex;
+    z-index: 5;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+/* .loginNav__img{
+    height: 45px;
+    margin-left: 30px;
+} */
+
+.loginNav .logo{
+    width: 120px;
+    height: 60px;
+    background-image: url(../../images/netflixLogo.png);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+.navLink{
+    display: inline-table;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.linkRed{
+    color: wheat;
+    background: red;
+}
+.linkHide{
+    display: none;
+}
+.container{
+    width: 80%;
+}

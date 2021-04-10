@@ -1,0 +1,42 @@
+.bannerBg{
+    height: 87vh;
+    width: 100%;
+    position: relative;
+}
+.bannerContent{
+    color: #fff;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    width: 50%;
+    text-align: justify;
+}
+.bannerContent h1{
+    margin-bottom: 20px;
+}
+.bannerContent p{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.bannerButton{
+    margin-bottom: 20px;
+}
+.bannerButton button{
+    padding: 10px 25px;
+    border: none;
+    margin-right: 25px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all .2s;
+}
+.bannerButton button:hover{
+    background-color: rgb(216, 213, 213);
+}
+.bannerButton button:focus{
+    outline: none;
+}
+.backdrop{
+    height: 100vh;
+    width: 100%;
+    cursor: pointer;
+}
